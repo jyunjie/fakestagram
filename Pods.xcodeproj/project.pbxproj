@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B216D0EE95359100F614D7A40AACA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0A4E00C48BB150B268BA3DF229D935F7 /* FSImageCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D971F7F6995A5A4B4A784720666C0AD /* FSImageCropView.swift */; };
+		20B9F03D6CB512A896CF681A2D8B5203 /* FSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F72C5543575D55E7715AD58C11C044 /* FSConstants.swift */; };
+		3A2F78316CF8E309322F667644E6197D /* FusumaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2BE25699ED21B6E75DA1B10EF6CE09 /* FusumaViewController.swift */; };
+		3A5D2E073DC2AD156588C20ECF6D6E87 /* FSAlbumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D932297DC6373BDB4B963A2873E0A6 /* FSAlbumView.xib */; };
+		41125D861C951E721D536EF9358E3549 /* FSAlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6487E10C97E856A0089B2CEEBBC421 /* FSAlbumViewCell.swift */; };
+		4425298C494DA38EA21CE37C52EC44E6 /* Fusuma-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFBC206BB0A0040A49CCFCF7C3B9324 /* Fusuma-dummy.m */; };
+		546018C049D59B4046D97C9E5731E085 /* Pods-FakeStagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BBFB616C1FD59E14136E62BC669C8 /* Pods-FakeStagram-dummy.m */; };
+		6675F4809C5215D98FAFCBAE8C2EF2D5 /* FusumaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C5D9D2BB38B89985BFA6C24424F8E65 /* FusumaViewController.xib */; };
+		7625DD466CF3049067583B579D1FF1A1 /* FSVideoCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D63C036093458EABDAC3DAAC50ADEA /* FSVideoCameraView.xib */; };
+		8681BBA9F17474482885383595964319 /* FSCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5788CD9B3BD4A71EAAA16C060E4E55C7 /* FSCameraView.xib */; };
+		9889C3CB27F58FF8E7677F56F637ED21 /* FSCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2D74E38079F815308D211FE20D67F1 /* FSCameraView.swift */; };
+		9E6039187937B59F54618466C1DFCCDE /* FSVideoCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C0C459C92B5EE9C9EE4ED79C888D8 /* FSVideoCameraView.swift */; };
+		AC68615DFB9CDA3638AAEC704CD95DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DE62AB3C0833929CA647DB6FBE1F22 /* Assets.xcassets */; };
+		B01A5420F84E59C6F3173C0E1F4EB6F6 /* FSAlbumViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B73959B68A609587CF8D3CCCCFD176 /* FSAlbumViewCell.xib */; };
+		B7D52093D7BF8222BAC6102AEF5A0F15 /* Fusuma-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6AA960A4C052B1C0FFAEBDE621187A3 /* Fusuma-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4EAAE56CE7C033AE6190CA1BA13029F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D54933E116B41EB75F188636558A03A2 /* Pods-FakeStagram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E82762B5DD6F1A8C2ECC6B25F870A76 /* Pods-FakeStagram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E94FE07869E7F28CAF4AE9208CA3C3A2 /* FSAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CC55614DAA7FE6945FD0C40EDE9173 /* FSAlbumView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		933DEA010132651994EC7FD3C3BEACB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7380ABD049E12DCFEC9B9E1D2D52C627;
+			remoteInfo = Fusuma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FC21A4434A862F4A537CD8FC4EB2C3 /* Fusuma.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Fusuma.modulemap; sourceTree = "<group>"; };
+		170F2119396097B047F1B48FF17893B5 /* Fusuma.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fusuma.xcconfig; sourceTree = "<group>"; };
+		17C2B803880DD30F1AC103B3972C4A74 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		1C8C0C459C92B5EE9C9EE4ED79C888D8 /* FSVideoCameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVideoCameraView.swift; path = Sources/FSVideoCameraView.swift; sourceTree = "<group>"; };
+		35DE62AB3C0833929CA647DB6FBE1F22 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/Assets.xcassets; sourceTree = "<group>"; };
+		3D971F7F6995A5A4B4A784720666C0AD /* FSImageCropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSImageCropView.swift; path = Sources/FSImageCropView.swift; sourceTree = "<group>"; };
+		45E3F5411964EC2C6F8A22271E018977 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		541236943264F9D82CEC5AB77A7CE6B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F48501A915092BB8C5368FB0DDE477 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		5788CD9B3BD4A71EAAA16C060E4E55C7 /* FSCameraView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FSCameraView.xib; path = Sources/FSCameraView.xib; sourceTree = "<group>"; };
+		5E31A617777BDAE6FC5A7111A925C5C1 /* Pods-FakeStagram-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FakeStagram-frameworks.sh"; sourceTree = "<group>"; };
+		5F2FD63B47985E6E73BF768BBE82BD20 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		68F7E7E46D4B22C17FE80CBBA00758E6 /* Pods-FakeStagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakeStagram.release.xcconfig"; sourceTree = "<group>"; };
+		6A2D74E38079F815308D211FE20D67F1 /* FSCameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCameraView.swift; path = Sources/FSCameraView.swift; sourceTree = "<group>"; };
+		6E20284EC4AF5516C305B1C4B1DE6B3C /* Pods-FakeStagram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FakeStagram.modulemap"; sourceTree = "<group>"; };
+		6E82762B5DD6F1A8C2ECC6B25F870A76 /* Pods-FakeStagram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FakeStagram-umbrella.h"; sourceTree = "<group>"; };
+		73F72C5543575D55E7715AD58C11C044 /* FSConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSConstants.swift; path = Sources/FSConstants.swift; sourceTree = "<group>"; };
+		79D63C036093458EABDAC3DAAC50ADEA /* FSVideoCameraView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FSVideoCameraView.xib; path = Sources/FSVideoCameraView.xib; sourceTree = "<group>"; };
+		79EDAE9CF121EF7948304CFB811CEFD0 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		7D6487E10C97E856A0089B2CEEBBC421 /* FSAlbumViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSAlbumViewCell.swift; path = Sources/FSAlbumViewCell.swift; sourceTree = "<group>"; };
+		851812FA343FCB210E087B42A4C71787 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		8688852FB87CF64DFC3DACD2646CEC75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A5EFFDF549C58BA96B87B619582DF6 /* Fusuma-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fusuma-prefix.pch"; sourceTree = "<group>"; };
+		8C5D9D2BB38B89985BFA6C24424F8E65 /* FusumaViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FusumaViewController.xib; path = Sources/FusumaViewController.xib; sourceTree = "<group>"; };
+		9141BF01761C5EA2522E895C84AB5151 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959A0F1B65473CA4DBA4C5FCD858AD24 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		9BE8D93F0142F76C99D66876C971594D /* Pods-FakeStagram-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FakeStagram-resources.sh"; sourceTree = "<group>"; };
+		9CA4FE5C39A71419315BD6287C777F72 /* Pods-FakeStagram-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakeStagram-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2FDC1F49E3E44BB4AB92EFFFE5ABA0A /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		A499D9D6C3B69670A78EF681765F9AF2 /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		A6CC55614DAA7FE6945FD0C40EDE9173 /* FSAlbumView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSAlbumView.swift; path = Sources/FSAlbumView.swift; sourceTree = "<group>"; };
+		A7B73959B68A609587CF8D3CCCCFD176 /* FSAlbumViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FSAlbumViewCell.xib; path = Sources/FSAlbumViewCell.xib; sourceTree = "<group>"; };
+		AC51C0306C3AA256AA52D5F148F1F221 /* Pods-FakeStagram-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FakeStagram-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0C9F4D99A808508A919804A03C7B62F /* Fusuma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fusuma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A468BE697876D9F1D8CF9D8FF510DD /* Pods-FakeStagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakeStagram.debug.xcconfig"; sourceTree = "<group>"; };
+		B85A61BA6ED8843C33907216C708F1E4 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		BCFBC206BB0A0040A49CCFCF7C3B9324 /* Fusuma-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fusuma-dummy.m"; sourceTree = "<group>"; };
+		C31BBFB616C1FD59E14136E62BC669C8 /* Pods-FakeStagram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FakeStagram-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4B28706BC031254359789EBD8827157 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		D7D932297DC6373BDB4B963A2873E0A6 /* FSAlbumView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FSAlbumView.xib; path = Sources/FSAlbumView.xib; sourceTree = "<group>"; };
+		DB2BE25699ED21B6E75DA1B10EF6CE09 /* FusumaViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FusumaViewController.swift; path = Sources/FusumaViewController.swift; sourceTree = "<group>"; };
+		E6AA960A4C052B1C0FFAEBDE621187A3 /* Fusuma-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fusuma-umbrella.h"; sourceTree = "<group>"; };
+		FFD97FF218CEF9D3DF78901F9F7D4E09 /* Pods_FakeStagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakeStagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		004D49D88B563D6A5150937DADC1E660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B216D0EE95359100F614D7A40AACA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812C8D456609FED1D2EA0E7172A97E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EAAE56CE7C033AE6190CA1BA13029F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15898D925F63A9417731DE8D59F7B8FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				959A0F1B65473CA4DBA4C5FCD858AD24 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D9391047B025D2685243E4E4AB11631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F2FD63B47985E6E73BF768BBE82BD20 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23B5B0D496559D6262E00A3B490C31D6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C559DB6DBAFB4C423DCDB016DB423E1 /* Pods-FakeStagram */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		265B52C45869A04D3F725923D4A2DD48 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				5015289266E0C535F0B0284ECECA0F56 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		2948EA228B68EA84391D13E96A3A49CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55F48501A915092BB8C5368FB0DDE477 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3304F9048F262037BD137C60CC33C036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2FDC1F49E3E44BB4AB92EFFFE5ABA0A /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5015289266E0C535F0B0284ECECA0F56 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				D4B28706BC031254359789EBD8827157 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		5B5039885C2C97D59658C0DAE91C891D /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				6745B49D568531CE10E8241FD5F0B99D /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		5FDEE3A6A7689B5DDFB3DDFD3A298277 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9141BF01761C5EA2522E895C84AB5151 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		671CD707DAEFEA3777F6C6F2B4A7AE50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A499D9D6C3B69670A78EF681765F9AF2 /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6745B49D568531CE10E8241FD5F0B99D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17C2B803880DD30F1AC103B3972C4A74 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73BFCFF1F6A3018C0919EE9D194AD55C /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C95399CAA3A2930EC068DC371F34F40A /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		7C559DB6DBAFB4C423DCDB016DB423E1 /* Pods-FakeStagram */ = {
+			isa = PBXGroup;
+			children = (
+				541236943264F9D82CEC5AB77A7CE6B7 /* Info.plist */,
+				6E20284EC4AF5516C305B1C4B1DE6B3C /* Pods-FakeStagram.modulemap */,
+				AC51C0306C3AA256AA52D5F148F1F221 /* Pods-FakeStagram-acknowledgements.markdown */,
+				9CA4FE5C39A71419315BD6287C777F72 /* Pods-FakeStagram-acknowledgements.plist */,
+				C31BBFB616C1FD59E14136E62BC669C8 /* Pods-FakeStagram-dummy.m */,
+				5E31A617777BDAE6FC5A7111A925C5C1 /* Pods-FakeStagram-frameworks.sh */,
+				9BE8D93F0142F76C99D66876C971594D /* Pods-FakeStagram-resources.sh */,
+				6E82762B5DD6F1A8C2ECC6B25F870A76 /* Pods-FakeStagram-umbrella.h */,
+				B7A468BE697876D9F1D8CF9D8FF510DD /* Pods-FakeStagram.debug.xcconfig */,
+				68F7E7E46D4B22C17FE80CBBA00758E6 /* Pods-FakeStagram.release.xcconfig */,
+			);
+			name = "Pods-FakeStagram";
+			path = "Target Support Files/Pods-FakeStagram";
+			sourceTree = "<group>";
+		};
+		7CB738391106ADFF8131033329FED686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0C9F4D99A808508A919804A03C7B62F /* Fusuma.framework */,
+				FFD97FF218CEF9D3DF78901F9F7D4E09 /* Pods_FakeStagram.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D155833F8A2FB75FBA0FDF1CDC530070 /* Pods */,
+				7CB738391106ADFF8131033329FED686 /* Products */,
+				23B5B0D496559D6262E00A3B490C31D6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F96C3CDE44B05FB440555BDD570DD9D /* Fusuma */ = {
+			isa = PBXGroup;
+			children = (
+				A6CC55614DAA7FE6945FD0C40EDE9173 /* FSAlbumView.swift */,
+				7D6487E10C97E856A0089B2CEEBBC421 /* FSAlbumViewCell.swift */,
+				6A2D74E38079F815308D211FE20D67F1 /* FSCameraView.swift */,
+				73F72C5543575D55E7715AD58C11C044 /* FSConstants.swift */,
+				3D971F7F6995A5A4B4A784720666C0AD /* FSImageCropView.swift */,
+				1C8C0C459C92B5EE9C9EE4ED79C888D8 /* FSVideoCameraView.swift */,
+				DB2BE25699ED21B6E75DA1B10EF6CE09 /* FusumaViewController.swift */,
+				B72F8B2D080EFE6061291C9B1AECF4E8 /* Resources */,
+				D296E1823E74620168645F7EEA43E71B /* Support Files */,
+			);
+			path = Fusuma;
+			sourceTree = "<group>";
+		};
+		820BB9E6608B61A46D6FCFE0CC6D8B08 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				79EDAE9CF121EF7948304CFB811CEFD0 /* FIRInstanceID.h */,
+				FF23D858184890A941C54324A838AED2 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		9A7723B106316C27E9EEA1EAC2F49185 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				2948EA228B68EA84391D13E96A3A49CE /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		B72F8B2D080EFE6061291C9B1AECF4E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35DE62AB3C0833929CA647DB6FBE1F22 /* Assets.xcassets */,
+				D7D932297DC6373BDB4B963A2873E0A6 /* FSAlbumView.xib */,
+				A7B73959B68A609587CF8D3CCCCFD176 /* FSAlbumViewCell.xib */,
+				5788CD9B3BD4A71EAAA16C060E4E55C7 /* FSCameraView.xib */,
+				79D63C036093458EABDAC3DAAC50ADEA /* FSVideoCameraView.xib */,
+				8C5D9D2BB38B89985BFA6C24424F8E65 /* FusumaViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B8C869A65676FDD261094BB6F22826A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B85A61BA6ED8843C33907216C708F1E4 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFD6C8EC07B48C9D961E741FF3E8E497 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				15898D925F63A9417731DE8D59F7B8FD /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		C90EA79BF435BE7BF18BF7027E06D6B8 /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				671CD707DAEFEA3777F6C6F2B4A7AE50 /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		C95399CAA3A2930EC068DC371F34F40A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				851812FA343FCB210E087B42A4C71787 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D155833F8A2FB75FBA0FDF1CDC530070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				265B52C45869A04D3F725923D4A2DD48 /* Firebase */,
+				BFD6C8EC07B48C9D961E741FF3E8E497 /* FirebaseAnalytics */,
+				FED5ABAFCC96AD4B5828066F245408DD /* FirebaseAuth */,
+				9A7723B106316C27E9EEA1EAC2F49185 /* FirebaseDatabase */,
+				820BB9E6608B61A46D6FCFE0CC6D8B08 /* FirebaseInstanceID */,
+				D715248253F9E79D35A32609F5849F11 /* FirebaseStorage */,
+				7F96C3CDE44B05FB440555BDD570DD9D /* Fusuma */,
+				5B5039885C2C97D59658C0DAE91C891D /* GoogleInterchangeUtilities */,
+				D1CDD1FF83A8B5A0DFFADE6747B44223 /* GoogleNetworkingUtilities */,
+				C90EA79BF435BE7BF18BF7027E06D6B8 /* GoogleParsingUtilities */,
+				F1C9E5FD50C188044D364E2F9F474F3F /* GoogleSymbolUtilities */,
+				73BFCFF1F6A3018C0919EE9D194AD55C /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1CDD1FF83A8B5A0DFFADE6747B44223 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				5FDEE3A6A7689B5DDFB3DDFD3A298277 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		D296E1823E74620168645F7EEA43E71B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00FC21A4434A862F4A537CD8FC4EB2C3 /* Fusuma.modulemap */,
+				170F2119396097B047F1B48FF17893B5 /* Fusuma.xcconfig */,
+				BCFBC206BB0A0040A49CCFCF7C3B9324 /* Fusuma-dummy.m */,
+				87A5EFFDF549C58BA96B87B619582DF6 /* Fusuma-prefix.pch */,
+				E6AA960A4C052B1C0FFAEBDE621187A3 /* Fusuma-umbrella.h */,
+				8688852FB87CF64DFC3DACD2646CEC75 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Fusuma";
+			sourceTree = "<group>";
+		};
+		D715248253F9E79D35A32609F5849F11 /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				3304F9048F262037BD137C60CC33C036 /* Frameworks */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		F1C9E5FD50C188044D364E2F9F474F3F /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				1D9391047B025D2685243E4E4AB11631 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		FED5ABAFCC96AD4B5828066F245408DD /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				B8C869A65676FDD261094BB6F22826A5 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		FF23D858184890A941C54324A838AED2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45E3F5411964EC2C6F8A22271E018977 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F026809C38C1A2DED748460E70B1765 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54933E116B41EB75F188636558A03A2 /* Pods-FakeStagram-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0CA34826A75E81ABAB7ECD048F311F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D52093D7BF8222BAC6102AEF5A0F15 /* Fusuma-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7380ABD049E12DCFEC9B9E1D2D52C627 /* Fusuma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A16F84FE8A33AD2E1D0F3FC56124A9EA /* Build configuration list for PBXNativeTarget "Fusuma" */;
+			buildPhases = (
+				E99F9FF0946BB3F7E248B5801BC350D7 /* Sources */,
+				004D49D88B563D6A5150937DADC1E660 /* Frameworks */,
+				0250727F87F46243677C2DC7E626E43F /* Resources */,
+				BC0CA34826A75E81ABAB7ECD048F311F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fusuma;
+			productName = Fusuma;
+			productReference = B0C9F4D99A808508A919804A03C7B62F /* Fusuma.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4404F8483EC8161238DE288076C3CE6 /* Pods-FakeStagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C510D939C88AF7704B9C17959F6CAB33 /* Build configuration list for PBXNativeTarget "Pods-FakeStagram" */;
+			buildPhases = (
+				1A8E6A586828AB1EEFF8DC84996F6DEA /* Sources */,
+				812C8D456609FED1D2EA0E7172A97E96 /* Frameworks */,
+				6F026809C38C1A2DED748460E70B1765 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6DB2FCC4F3851CFC48149D5575FBAB7 /* PBXTargetDependency */,
+			);
+			name = "Pods-FakeStagram";
+			productName = "Pods-FakeStagram";
+			productReference = FFD97FF218CEF9D3DF78901F9F7D4E09 /* Pods_FakeStagram.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7CB738391106ADFF8131033329FED686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7380ABD049E12DCFEC9B9E1D2D52C627 /* Fusuma */,
+				F4404F8483EC8161238DE288076C3CE6 /* Pods-FakeStagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0250727F87F46243677C2DC7E626E43F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC68615DFB9CDA3638AAEC704CD95DDB /* Assets.xcassets in Resources */,
+				3A5D2E073DC2AD156588C20ECF6D6E87 /* FSAlbumView.xib in Resources */,
+				B01A5420F84E59C6F3173C0E1F4EB6F6 /* FSAlbumViewCell.xib in Resources */,
+				8681BBA9F17474482885383595964319 /* FSCameraView.xib in Resources */,
+				7625DD466CF3049067583B579D1FF1A1 /* FSVideoCameraView.xib in Resources */,
+				6675F4809C5215D98FAFCBAE8C2EF2D5 /* FusumaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A8E6A586828AB1EEFF8DC84996F6DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546018C049D59B4046D97C9E5731E085 /* Pods-FakeStagram-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99F9FF0946BB3F7E248B5801BC350D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94FE07869E7F28CAF4AE9208CA3C3A2 /* FSAlbumView.swift in Sources */,
+				41125D861C951E721D536EF9358E3549 /* FSAlbumViewCell.swift in Sources */,
+				9889C3CB27F58FF8E7677F56F637ED21 /* FSCameraView.swift in Sources */,
+				20B9F03D6CB512A896CF681A2D8B5203 /* FSConstants.swift in Sources */,
+				0A4E00C48BB150B268BA3DF229D935F7 /* FSImageCropView.swift in Sources */,
+				9E6039187937B59F54618466C1DFCCDE /* FSVideoCameraView.swift in Sources */,
+				4425298C494DA38EA21CE37C52EC44E6 /* Fusuma-dummy.m in Sources */,
+				3A2F78316CF8E309322F667644E6197D /* FusumaViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6DB2FCC4F3851CFC48149D5575FBAB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fusuma;
+			target = 7380ABD049E12DCFEC9B9E1D2D52C627 /* Fusuma */;
+			targetProxy = 933DEA010132651994EC7FD3C3BEACB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2585CEEDEBAFB22831D37F3C8E9DBF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A468BE697876D9F1D8CF9D8FF510DD /* Pods-FakeStagram.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FakeStagram/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakeStagram/Pods-FakeStagram.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FakeStagram;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31D300E60AF10E11CD193E57722E211E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170F2119396097B047F1B48FF17893B5 /* Fusuma.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Fusuma/Fusuma-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fusuma/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fusuma/Fusuma.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Fusuma;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		849907E8F8D7504150A7BF1046B22037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170F2119396097B047F1B48FF17893B5 /* Fusuma.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Fusuma/Fusuma-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fusuma/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fusuma/Fusuma.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Fusuma;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA2B0E8251FFA5336281CE469368FB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F7E7E46D4B22C17FE80CBBA00758E6 /* Pods-FakeStagram.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FakeStagram/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakeStagram/Pods-FakeStagram.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FakeStagram;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A16F84FE8A33AD2E1D0F3FC56124A9EA /* Build configuration list for PBXNativeTarget "Fusuma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849907E8F8D7504150A7BF1046B22037 /* Debug */,
+				31D300E60AF10E11CD193E57722E211E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C510D939C88AF7704B9C17959F6CAB33 /* Build configuration list for PBXNativeTarget "Pods-FakeStagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2585CEEDEBAFB22831D37F3C8E9DBF98 /* Debug */,
+				EA2B0E8251FFA5336281CE469368FB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_FakeStagram {
+  umbrella header "Pods-FakeStagram-umbrella.h"
+
+  export *
+  module * { export * }
+}

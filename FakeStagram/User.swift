@@ -27,4 +27,8 @@ class User: NSObject {
         return NSUserDefaults.standardUserDefaults().valueForKey("uid") as? String
     }
     
+    class func removeUserUid() {
+        NSUserDefaults.standardUserDefaults().removeObjectForKey("uid")
+    }
+    
 }

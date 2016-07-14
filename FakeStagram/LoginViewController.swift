@@ -21,7 +21,8 @@ class LoginViewController: UIViewController {
         view.addGestureRecognizer(tap)
         
     }
-    
+
+
     
     @IBAction func onLogInBtn(sender: UIButton) {
         guard let email = userNameSignInTxtFld.text , let password = passwordSignInTxtFld.text else{
@@ -101,4 +102,7 @@ class LoginViewController: UIViewController {
     @IBAction func unwindToMenu(segue: UIStoryboardSegue) {}
     
 }
+
+    
+
 

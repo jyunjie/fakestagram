@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		16EBBE118E30F5C86F08368F /* Pods_FakeStagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CFB2FCB22780D81C39CC96 /* Pods_FakeStagram.framework */; };
+		282E28241D2E991B002B6771 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E28231D2E991B002B6771 /* FeedTableViewController.swift */; };
+		282E28261D2F4E48002B6771 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E28251D2F4E48002B6771 /* ProfileViewController.swift */; };
+		282E28281D2F5D3F002B6771 /* ProfileImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E28271D2F5D3F002B6771 /* ProfileImageCollectionViewCell.swift */; };
 		286438071D2B8E7100540AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286438061D2B8E7100540AE9 /* AppDelegate.swift */; };
 		2864380C1D2B8E7100540AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2864380A1D2B8E7100540AE9 /* Main.storyboard */; };
 		2864380E1D2B8E7100540AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2864380D1D2B8E7100540AE9 /* Assets.xcassets */; };
@@ -15,12 +18,21 @@
 		2864381B1D2B94AA00540AE9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2864381A1D2B94AA00540AE9 /* LoginViewController.swift */; };
 		2864381D1D2B94B900540AE9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2864381C1D2B94B900540AE9 /* SignUpViewController.swift */; };
 		286438211D2B972200540AE9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286438201D2B972200540AE9 /* User.swift */; };
-		286438231D2B97A400540AE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 286438221D2B97A400540AE9 /* GoogleService-Info.plist */; };
 		286438251D2B9E3E00540AE9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286438241D2B9E3E00540AE9 /* CameraViewController.swift */; };
+		286438271D2CC44D00540AE9 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286438261D2CC44C00540AE9 /* HomeTableViewCell.swift */; };
+		2864382B1D2CCCE300540AE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2864382A1D2CCCE300540AE9 /* GoogleService-Info.plist */; };
+		28C4F4101D321A9D00DE2769 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4F40F1D321A9D00DE2769 /* CommentTableViewCell.swift */; };
+		28C4F4121D32236700DE2769 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4F4111D32236700DE2769 /* CommentViewController.swift */; };
+		28C4F4341D34DC4200DE2769 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4F4331D34DC4200DE2769 /* SearchTableViewController.swift */; };
+		28C4F4361D34E04100DE2769 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4F4351D34E04100DE2769 /* UserViewController.swift */; };
+		28C4F4381D34F21200DE2769 /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4F4371D34F21200DE2769 /* UserCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		23CDC56BE4234DF40967A251 /* Pods-FakeStagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeStagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-FakeStagram/Pods-FakeStagram.release.xcconfig"; sourceTree = "<group>"; };
+		282E28231D2E991B002B6771 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		282E28251D2F4E48002B6771 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		282E28271D2F5D3F002B6771 /* ProfileImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		286438031D2B8E7100540AE9 /* FakeStagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeStagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286438061D2B8E7100540AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2864380B1D2B8E7100540AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -30,8 +42,14 @@
 		2864381A1D2B94AA00540AE9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2864381C1D2B94B900540AE9 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		286438201D2B972200540AE9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		286438221D2B97A400540AE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		286438241D2B9E3E00540AE9 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		286438261D2CC44C00540AE9 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		2864382A1D2CCCE300540AE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28C4F40F1D321A9D00DE2769 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		28C4F4111D32236700DE2769 /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		28C4F4331D34DC4200DE2769 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		28C4F4351D34E04100DE2769 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		28C4F4371D34F21200DE2769 /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
 		50CFB2FCB22780D81C39CC96 /* Pods_FakeStagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakeStagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5695BE2C413ABC390E3D2F18 /* Pods-FakeStagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeStagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FakeStagram/Pods-FakeStagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,12 +91,21 @@
 				2864381A1D2B94AA00540AE9 /* LoginViewController.swift */,
 				2864381C1D2B94B900540AE9 /* SignUpViewController.swift */,
 				2864380A1D2B8E7100540AE9 /* Main.storyboard */,
+				28C4F4351D34E04100DE2769 /* UserViewController.swift */,
+				28C4F4371D34F21200DE2769 /* UserCollectionViewCell.swift */,
+				28C4F4331D34DC4200DE2769 /* SearchTableViewController.swift */,
+				282E28271D2F5D3F002B6771 /* ProfileImageCollectionViewCell.swift */,
+				282E28251D2F4E48002B6771 /* ProfileViewController.swift */,
+				286438261D2CC44C00540AE9 /* HomeTableViewCell.swift */,
 				286438241D2B9E3E00540AE9 /* CameraViewController.swift */,
 				2864380D1D2B8E7100540AE9 /* Assets.xcassets */,
 				2864380F1D2B8E7100540AE9 /* LaunchScreen.storyboard */,
 				286438121D2B8E7100540AE9 /* Info.plist */,
 				286438201D2B972200540AE9 /* User.swift */,
-				286438221D2B97A400540AE9 /* GoogleService-Info.plist */,
+				2864382A1D2CCCE300540AE9 /* GoogleService-Info.plist */,
+				282E28231D2E991B002B6771 /* FeedTableViewController.swift */,
+				28C4F4111D32236700DE2769 /* CommentViewController.swift */,
+				28C4F40F1D321A9D00DE2769 /* CommentTableViewCell.swift */,
 			);
 			path = FakeStagram;
 			sourceTree = "<group>";
@@ -162,7 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				286438111D2B8E7100540AE9 /* LaunchScreen.storyboard in Resources */,
-				286438231D2B97A400540AE9 /* GoogleService-Info.plist in Resources */,
+				2864382B1D2CCCE300540AE9 /* GoogleService-Info.plist in Resources */,
 				2864380E1D2B8E7100540AE9 /* Assets.xcassets in Resources */,
 				2864380C1D2B8E7100540AE9 /* Main.storyboard in Resources */,
 			);
@@ -223,11 +250,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282E28281D2F5D3F002B6771 /* ProfileImageCollectionViewCell.swift in Sources */,
+				286438271D2CC44D00540AE9 /* HomeTableViewCell.swift in Sources */,
+				28C4F4361D34E04100DE2769 /* UserViewController.swift in Sources */,
 				286438211D2B972200540AE9 /* User.swift in Sources */,
 				286438251D2B9E3E00540AE9 /* CameraViewController.swift in Sources */,
+				28C4F4381D34F21200DE2769 /* UserCollectionViewCell.swift in Sources */,
+				282E28241D2E991B002B6771 /* FeedTableViewController.swift in Sources */,
 				2864381B1D2B94AA00540AE9 /* LoginViewController.swift in Sources */,
 				2864381D1D2B94B900540AE9 /* SignUpViewController.swift in Sources */,
+				28C4F4341D34DC4200DE2769 /* SearchTableViewController.swift in Sources */,
+				28C4F4101D321A9D00DE2769 /* CommentTableViewCell.swift in Sources */,
+				282E28261D2F4E48002B6771 /* ProfileViewController.swift in Sources */,
 				286438071D2B8E7100540AE9 /* AppDelegate.swift in Sources */,
+				28C4F4121D32236700DE2769 /* CommentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
